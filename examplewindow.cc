@@ -49,6 +49,8 @@ ExampleWindow::ExampleWindow()
   m_TreeView.append_column( "one", m_refTreeModel->get_model_column(0) );
   m_TreeView.append_column( "two", m_refTreeModel->get_model_column(1) );
   m_TreeView.append_column( "three", m_refTreeModel->get_model_column(2) );
+
+  show_all_children();
 }
 
 ExampleWindow::~ExampleWindow()
